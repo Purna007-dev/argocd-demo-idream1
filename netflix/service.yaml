@@ -5,7 +5,7 @@ metadata:
   labels:
     app: my-app-np
 spec:
-  type: Nodeport
+  type: LoadBalancer
   ports:
   - port: 80
     targetPort: 80
